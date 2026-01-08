@@ -1,6 +1,6 @@
 console.log("This is typescript session");
 
-const name1 = 'codefirst';
+const name1:string = 'codefirst';
 console.log(name1);
 
 // let addition = ()=>{
@@ -11,7 +11,7 @@ console.log(name1);
 
 // spread
 var test1 = [1,2,3,9,8,8,9];
-var test2 = [4,5,6, 11,22,33];
+var test2 = [4,5,6,11,22,33];
 
 var mixedArray = [...test1,...test2];
 console.log(mixedArray);
@@ -25,3 +25,5 @@ let addition = (...num:any) =>{
     console.log(result);
 }
 addition(2,45,78,7,897,8);
+
+

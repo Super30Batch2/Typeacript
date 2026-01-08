@@ -24,3 +24,5 @@ TS supports all OOP's concepts but doesn't support by JS.
 When we write our code in TS we need to compile down to JS then we can run the JS code. ===> Transpilation process.
 It is portabble ===> any env or any OS.
 we need to install typescript to run the TS files.
+
+

@@ -1,6 +1,6 @@
 console.log("This is typescript session");
 
-const name1 = 'codefirst';
+const name1:string = 'codefirst';
 console.log(name1);
 
 // let addition = ()=>{
